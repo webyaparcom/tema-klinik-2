@@ -1,0 +1,58 @@
+{
+  "order": false,
+  "user": false,
+  "description": {
+    "tr": "Nokta Tıp: sekiz branşta uzman hekim, randevu esaslı muayene ve erişilebilir bir merkez. (Demo site)",
+    "en": "Nokta Tip: specialist physicians in eight departments, appointment-based examination and an accessible centre. (Demo site)",
+    "ar": "نقطة الطبي: أطباء متخصصون في ثمانية أقسام، وفحص بالمواعيد، ومركز مهيأ للجميع. (موقع تجريبي)"
+  },
+  "keyword": {
+    "tr": "tıp merkezi, randevu, hekim, branş, muayene",
+    "en": "medical centre, appointment, physician, department, examination",
+    "ar": "مركز طبي، موعد، طبيب، قسم، فحص"
+  },
+  "category": "Kurumsal",
+  "name": "Nokta Tıp",
+  "domain": "klinik-2.webyapar.com",
+  "langs": {
+    "tr": true,
+    "en": true,
+    "ar": true,
+    "de": false,
+    "ru": false,
+    "es": false,
+    "fr": false,
+    "it": false,
+    "ja": false,
+    "zh": false,
+    "ko": false,
+    "pt": false
+  },
+  "logo": "logo.png",
+  "multi": false,
+  "icon": "icon.png",
+  "theme_color": "#696A91",
+  "phone": "+90 342 000 00 11",
+  "email": "randevu@noktatip.example",
+  "publishMode": "static",
+  "colorScheme": "auto",
+  "seo": {
+    "noindex": true
+  },
+  "font": {
+    "body": "inter",
+    "heading": "inter",
+    "ar": {
+      "body": "ibm-plex-sans-arabic",
+      "heading": "ibm-plex-sans-arabic"
+    }
+  },
+  "cssTokens": {
+    "--mx-radius-sm": "0px",
+    "--mx-radius-md": "2px",
+    "--mx-radius-lg": "4px",
+    "--mx-radius-xl": "4px",
+    "--mx-shadow-md": "none",
+    "--mx-dur": "200ms"
+  }
+}

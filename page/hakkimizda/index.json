@@ -1,0 +1,44 @@
+{
+  "name": {
+    "tr": "Hakkımızda",
+    "en": "About Us",
+    "ar": "من نحن"
+  },
+  "status": "play",
+  "id": "hakkimizda",
+  "path": "hakkimizda",
+  "category": "",
+  "text": {
+    "tr": "<h2>Hakkımızda</h2><p>Nokta Tıp, Gaziantep’te sekiz branşta randevu esaslı hizmet veren kurgusal bir demo tıp merkezidir. Hekimlerimiz uzmanlık unvanlarıyla tanıtılır; her muayenede yapılacak işlem ve seçenekler anlaşılır biçimde anlatılır.</p>",
+    "en": "<h2>About us</h2><p>Nokta Tip is a fictional demo medical centre in Gaziantep offering appointment-based care in eight departments. Our physicians are introduced with their specialist titles; at every examination the procedure and the options are explained clearly.</p>",
+    "ar": "<h2>من نحن</h2><p>نقطة الطبي مركز طبي تجريبي افتراضي في غازي عنتاب يقدّم خدماته بالمواعيد في ثمانية أقسام. يُعرَّف بأطبائنا مع ألقابهم التخصصية، ويُشرح في كل فحص الإجراء والخيارات بوضوح.</p>"
+  },
+  "desing": {
+    "header": [],
+    "body": [
+      "t1in01",
+      "gz24ul"
+    ],
+    "footer": []
+  },
+  "desc": {},
+  "index": 0,
+  "icon": "info",
+  "title": {
+    "tr": "Hakkımızda",
+    "en": "About Us",
+    "ar": "من نحن"
+  },
+  "description": {
+    "tr": "Nokta Tıp hakkında.",
+    "en": "About Nokta Tip.",
+    "ar": "نبذة عن نقطة الطبي."
+  },
+  "keyword": {
+    "tr": "hakkımızda, tıp merkezi",
+    "en": "about, medical centre",
+    "ar": "من نحن، مركز طبي"
+  },
+  "update": "2026-10-31T15:00:05.942Z",
+  "date": "2026-05-19"
+}

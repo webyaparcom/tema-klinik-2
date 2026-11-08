@@ -1,0 +1,40 @@
+{
+  "id": "xogo81y16a",
+  "name": {
+    "tr": "Erişilebilirlik",
+    "en": "Accessibility",
+    "ar": "إمكانية الوصول"
+  },
+  "description": {
+    "tr": "Fiziksel ve dijital erişilebilirlik imkânlarımız.",
+    "en": "Our physical and digital accessibility features.",
+    "ar": "تجهيزاتنا لتسهيل الوصول المادي والرقمي."
+  },
+  "keyword": {
+    "tr": "erişilebilirlik, engelli erişimi",
+    "en": "accessibility, disabled access",
+    "ar": "إمكانية الوصول، ذوو الإعاقة"
+  },
+  "path": "erisilebilirlik",
+  "icon": "accessible",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "1wctio",
+      "61jcfv"
+    ],
+    "footer": []
+  },
+  "index": 4,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Erişilebilirlik",
+    "en": "Accessibility",
+    "ar": "إمكانية الوصول"
+  },
+  "date": "2026-10-31T14:38:38.442Z",
+  "update": "2026-10-31T15:00:05.936Z"
+}
