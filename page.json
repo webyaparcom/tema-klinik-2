@@ -1,0 +1,202 @@
+{
+  "data": [
+    {
+      "name": {
+        "tr": "Hekimlerimiz",
+        "en": "Our Physicians",
+        "ar": "أطباؤنا"
+      },
+      "status": "play",
+      "category": "",
+      "id": "yvi9dlb59o",
+      "url": "",
+      "path": "hekimlerimiz",
+      "index": 0,
+      "desing": {
+        "header": [],
+        "body": [
+          "v86him",
+          "cy81hp"
+        ],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "Uzman hekim kadromuz, unvanları ve uzmanlık alanlarıyla.",
+        "en": "Our specialist physicians with their titles and fields of practice.",
+        "ar": "أطباؤنا المتخصصون مع ألقابهم ومجالات تخصصهم."
+      },
+      "icon": "stethoscope"
+    },
+    {
+      "name": {
+        "tr": "Branşlar ve Tedaviler",
+        "en": "Departments and Treatments",
+        "ar": "الأقسام والعلاجات"
+      },
+      "status": "play",
+      "category": "",
+      "id": "hs54qzyeyo",
+      "url": "",
+      "path": "tedaviler",
+      "index": 1,
+      "icon": "medical_services",
+      "desing": {
+        "header": [],
+        "body": [
+          "c42s7x",
+          "s8y9t5"
+        ],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "Dokuz branşta muayene ve takip hizmetleri.",
+        "en": "Examination and follow-up services in nine departments.",
+        "ar": "خدمات الفحص والمتابعة في تسعة أقسام."
+      }
+    },
+    {
+      "id": "pl4mc0iso3",
+      "name": {
+        "tr": "Randevu",
+        "en": "Appointment",
+        "ar": "الموعد"
+      },
+      "description": {
+        "tr": "Çevrimiçi muayene randevusu (demo).",
+        "en": "Online examination appointment (demo).",
+        "ar": "حجز موعد فحص عبر الإنترنت (تجريبي)."
+      },
+      "path": "randevu",
+      "icon": "event",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "tpc83l"
+        ],
+        "footer": []
+      },
+      "index": 2
+    },
+    {
+      "id": "52y84tw0er",
+      "name": {
+        "tr": "Sık Sorulan Sorular",
+        "en": "FAQ",
+        "ar": "الأسئلة الشائعة"
+      },
+      "description": {
+        "tr": "Randevu, muayene ve merkezimizle ilgili sık sorulan sorular.",
+        "en": "Frequently asked questions about appointments, examinations and our centre.",
+        "ar": "أسئلة شائعة حول المواعيد والفحوص ومركزنا."
+      },
+      "path": "sss",
+      "icon": "help",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "rnsxrh",
+          "cy81hp"
+        ],
+        "footer": []
+      },
+      "index": 3
+    },
+    {
+      "id": "xogo81y16a",
+      "name": {
+        "tr": "Erişilebilirlik",
+        "en": "Accessibility",
+        "ar": "إمكانية الوصول"
+      },
+      "description": {
+        "tr": "Fiziksel ve dijital erişilebilirlik imkânlarımız.",
+        "en": "Our physical and digital accessibility features.",
+        "ar": "تجهيزاتنا لتسهيل الوصول المادي والرقمي."
+      },
+      "path": "erisilebilirlik",
+      "icon": "accessible",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "1wctio",
+          "61jcfv"
+        ],
+        "footer": []
+      },
+      "index": 4
+    },
+    {
+      "id": "cgxd2r7dr7",
+      "name": {
+        "tr": "Hasta Hakları",
+        "en": "Patient Rights",
+        "ar": "حقوق المرضى"
+      },
+      "description": {
+        "tr": "Hasta hakları ilkelerinin özeti.",
+        "en": "A summary of patient rights principles.",
+        "ar": "ملخص لمبادئ حقوق المرضى."
+      },
+      "path": "hasta-haklari",
+      "icon": "gavel",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "qggdzr"
+        ],
+        "footer": []
+      },
+      "index": 5
+    },
+    {
+      "name": {
+        "tr": "İletişim",
+        "en": "Contact",
+        "ar": "اتصل بنا"
+      },
+      "status": "play",
+      "category": "",
+      "id": "xnzu5au0ag",
+      "url": "",
+      "path": "iletisim",
+      "index": 6,
+      "icon": "call",
+      "desing": {
+        "header": [],
+        "body": [
+          "ixjn88",
+          "bi4hta"
+        ],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "Adres, telefon, e-posta ve çalışma saatleri.",
+        "en": "Address, phone, e-mail and opening hours.",
+        "ar": "العنوان والهاتف والبريد الإلكتروني وساعات العمل."
+      }
+    }
+  ],
+  "desc": [],
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "modulestatus": {
+    "page": true,
+    "bgimg": true,
+    "detail": true,
+    "body": true
+  }
+}
