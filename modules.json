@@ -31,7 +31,14 @@
         "logomaxh": "100px",
         "logoimg": "",
         "langcolor": "currentColor",
-        "langbg": "transparent"
+        "langbg": "transparent",
+        "tekSatir": "",
+        "logoDark": "",
+        "duzen": "",
+        "ctaText": "",
+        "ctaHref": "",
+        "temaDugmesi": "",
+        "temaAnahtar": ""
       },
       "version": "1.0.0",
       "icon": "menu"
@@ -231,7 +238,10 @@
         "img": "",
         "imgwidth": "250px",
         "stil": "",
-        "showlang": true
+        "showlang": true,
+        "showsocial": true,
+        "social": [],
+        "langcolor": ""
       },
       "data": [],
       "version": "1.0.0",
@@ -959,14 +969,14 @@
           "onek": "",
           "sonek": "",
           "etiket": {
-            "tr": "Branş",
-            "en": "Departments",
-            "ar": "قسمًا"
+            "tr": "Birim",
+            "en": "Units",
+            "ar": "وحدة"
           },
           "aciklama": {
-            "tr": "Laboratuvar dahil",
-            "en": "Including the laboratory",
-            "ar": "بما في ذلك المختبر"
+            "tr": "Sekiz branş ve laboratuvar",
+            "en": "Eight departments and the laboratory",
+            "ar": "ثمانية أقسام ومختبر"
           },
           "ikon": "category"
         },
@@ -1792,9 +1802,9 @@
           "ar": "الأقسام والعلاجات"
         },
         "title": {
-          "tr": "Dokuz branşta tek çatı altında",
-          "en": "Nine departments under one roof",
-          "ar": "تسعة أقسام تحت سقف واحد"
+          "tr": "Sekiz branş ve laboratuvar, tek çatı altında",
+          "en": "Eight departments and a laboratory under one roof",
+          "ar": "ثمانية أقسام ومختبر تحت سقف واحد"
         },
         "description": {
           "tr": "Her branşta muayene, gerekli tetkikler ve takip planı hekim tarafından belirlenir.",
@@ -3619,9 +3629,9 @@
           "ar": "اتصل بنا"
         },
         "callText": {
-          "tr": "Hafta içi 09:00 – 18:00",
-          "en": "Weekdays 09:00 – 18:00",
-          "ar": "أيام الأسبوع 09:00 – 18:00"
+          "tr": "Hafta içi 08:00 – 19:00 · Cumartesi 09:00 – 13:00",
+          "en": "Weekdays 08:00 – 19:00 · Saturday 09:00 – 13:00",
+          "ar": "أيام الأسبوع 08:00 – 19:00 · السبت 09:00 – 13:00"
         },
         "callBtn": {
           "tr": "Ara",
@@ -3649,9 +3659,9 @@
           "ar": "البريد الإلكتروني"
         },
         "mailText": {
-          "tr": "Teklif ve detaylı sorular için",
-          "en": "For quotes and detailed questions",
-          "ar": "لعروض الأسعار والأسئلة التفصيلية"
+          "tr": "Randevu ve sorularınız için",
+          "en": "For appointments and questions",
+          "ar": "للمواعيد والاستفسارات"
         },
         "mailBtn": {
           "tr": "E-posta gönder",
