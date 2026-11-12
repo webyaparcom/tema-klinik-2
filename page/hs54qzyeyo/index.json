@@ -21,9 +21,9 @@
   },
   "pathnext": "",
   "description": {
-    "tr": "Dokuz branşta muayene ve takip hizmetleri.",
-    "en": "Examination and follow-up services in nine departments.",
-    "ar": "خدمات الفحص والمتابعة في تسعة أقسام."
+    "tr": "Sekiz branşta ve laboratuvarda muayene ve takip hizmetleri.",
+    "en": "Examination and follow-up services in eight departments and the laboratory.",
+    "ar": "خدمات الفحص والمتابعة في ثمانية أقسام والمختبر."
   },
   "spot": {
     "tr": ""
@@ -40,6 +40,6 @@
     "ar": "قسم، علاج، فحص"
   },
   "text": {},
-  "update": "2026-10-31T15:00:05.929Z",
+  "update": "2026-11-12T07:36:17.687Z",
   "date": "2026-05-19"
 }
