@@ -38,19 +38,19 @@
   <link rel="preload" href="/src/fonts/inter/inter-latin-ext-400-normal.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="/src/fonts/inter/inter-latin-ext-500-normal.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="/src/fonts/inter/inter-latin-ext-700-normal.woff2" as="font" type="font/woff2" crossorigin />
-  <link rel="stylesheet" href="/src/fonts/inter.css?v=ucace" />
-  <link rel="stylesheet" href="/src/fonts/ibm-plex-sans-arabic.css?v=ucace" />
-  <link rel="stylesheet" href="/src/rubik.css?v=ucace" />
-  <link rel="stylesheet" href="/src/css.css?v=ucace" />
-  <link rel="stylesheet" href="/src/mx-ds.css?v=ucace" />
+  <link rel="stylesheet" href="/src/fonts/inter.css?v=g7716" />
+  <link rel="stylesheet" href="/src/fonts/ibm-plex-sans-arabic.css?v=g7716" />
+  <link rel="stylesheet" href="/src/rubik.css?v=g7716" />
+  <link rel="stylesheet" href="/src/css.css?v=g7716" />
+  <link rel="stylesheet" href="/src/mx-ds.css?v=g7716" />
   
-  <link rel="stylesheet" href="/src/mx-ui.css?v=ucace" />
+  <link rel="stylesheet" href="/src/mx-ui.css?v=g7716" />
   <link rel="preload" href="/src/material-symbols-outlined.woff2" as="font" type="font/woff2" crossorigin />
-  <link rel="stylesheet" href="/src/material-symbols-outlined.css?v=ucace" />
+  <link rel="stylesheet" href="/src/material-symbols-outlined.css?v=g7716" />
   
-  <link rel="stylesheet" href="/src/cookie.css?v=ucace" />
-  <link rel="stylesheet" href="/src/swiper-bundle.min.css?v=ucace" />
-  <link rel="shortcut icon" href="/img/icon.png?v=ucace" type="image/png" />
+  <link rel="stylesheet" href="/src/cookie.css?v=g7716" />
+  <link rel="stylesheet" href="/src/swiper-bundle.min.css?v=g7716" />
+  <link rel="shortcut icon" href="/img/icon.png?v=g7716" type="image/png" />
   <link rel="apple-touch-icon" href="/img/icon.png" />
   <script type="application/ld+json">
 {
@@ -109,7 +109,7 @@
 }
 </script>
   
-<link rel="stylesheet" href="style.css?v=ucace">
+<link rel="stylesheet" href="style.css?v=g7716">
 </head>
 
 <body>
@@ -223,7 +223,7 @@
   <div class="h0001body">
     <a href="/tr/">
       <img
-        src="/img/logo.png?v=kejmv"
+        src="/img/logo.png?v=p1yzg"
         alt="Nokta Tıp Logo"
         class="h0001bodylogo"
         loading="lazy"
@@ -424,415 +424,121 @@
   }
 </script>
 </div>
-  <div id="content"><section class="b0000-h4 b0000-h4--kare-kesit" data-mx-hero="1" aria-labelledby="h4-s04cd8-baslik">
-  <div class="b0000-h4-wrap">
-    <div class="b0000-h4-icerik">
-      <p class="b0000-h4-eyebrow b0000-h4-in">Tıp merkezi · Gaziantep</p>
-      <h1 class="b0000-h4-baslik b0000-h4-in" id="h4-s04cd8-baslik">Sekiz branş, tek takvim, net bilgi</h1>
-      <p class="b0000-h4-metin b0000-h4-in">Randevu talepleri hekim takvimine göre onaylanır; onay bilgisi telefon veya e-posta ile iletilir. Acil durumlarda lütfen 112’yi arayın.</p>
-      <div class="b0000-h4-ctalar b0000-h4-in"><a class="b0000-h4-cta b0000-h4-cta--dolgu" href="/tr/randevu/">Randevu al<span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span></a><a class="b0000-h4-cta b0000-h4-cta--cerceve" href="/tr/tedaviler/">Branşlar</a></div>
-      <ul class="b0000-h4-guven b0000-h4-in"><li><span class="material-symbols-outlined" aria-hidden="true">badge</span><span>Uzman hekim unvanlı kadro</span></li><li><span class="material-symbols-outlined" aria-hidden="true">accessible</span><span>Erişilebilir bina</span></li><li><span class="material-symbols-outlined" aria-hidden="true">lock</span><span>Gizli sağlık verisi</span></li></ul>
-    </div>
-    <div class="b0000-h4-gorsel b0000-h4-in">
-      <div class="b0000-h4-sekil" aria-hidden="true"></div>
-      <div class="b0000-h4-sekil2" aria-hidden="true"></div>
-      <div class="b0000-h4-cerceve"><img class="b0000-h4-img" src="/img/klinik-klinik-oda.webp" alt="Gün ışığı alan muayene odası" width="1000" height="800" loading="eager" fetchpriority="high" decoding="async" /></div>
-      <div class="b0000-h4-rozet"><span class="b0000-h4-rozet-ikon"><span class="material-symbols-outlined" aria-hidden="true">event_available</span></span><span><bdi class="b0000-h4-rozet-deger">8</bdi><span class="b0000-h4-rozet-etiket">Branş, randevuyla</span></span></div>
-    </div>
-  </div>
-</section>
-
-
-<script>
-  (function () {
-    var kok = document.querySelector(".b0000-h4");
-    if (!kok) { return; }
-    var azalt = false;
-    try { azalt = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches; } catch (e) { azalt = false; }
-    if (azalt || !("IntersectionObserver" in window)) { return; }
-    kok.classList.add("b0000-h4-js");
-    var io = new IntersectionObserver(function (girdiler) {
-      for (var i = 0; i < girdiler.length; i++) {
-        if (girdiler[i].isIntersecting) {
-          kok.classList.add("b0000-h4-goster");
-          io.disconnect();
-        }
-      }
-    }, { threshold: 0.15 });
-    io.observe(kok);
+  <div id="content"><section class="b0000-acilis-dev-tipografi" aria-labelledby="b0000-acilis-dev-tipografi-s04cd8-b">
+  <div class="b0000-acilis-dev-tipografi-ic">
     
-    setTimeout(function () { kok.classList.add("b0000-h4-goster"); }, 600);
-  })();
-</script>
-<section class="b0001-s2 b0001-s2-serit b0001-s2-desen-yok" id="s2-gz24ul" data-s2-dil="tr" data-s2-sure="1000" style="--s2-n:4">
-  <span class="b0001-s2-desen" aria-hidden="true"></span>
-  <div class="b0001-s2-wrap">
+    <div class="b0000-acilis-dev-tipografi-meta b0000-acilis-dev-tipografi-gir"><p class="b0000-acilis-dev-tipografi-ust">Tıp merkezi · Gaziantep</p><ul class="b0000-acilis-dev-tipografi-ogeler" role="list"><li class="b0000-acilis-dev-tipografi-oge"><span class="b0000-acilis-dev-tipografi-oikon material-symbols-outlined" aria-hidden="true">badge</span><span class="b0000-acilis-dev-tipografi-ometin">Uzman hekim unvanlı kadro</span></li><li class="b0000-acilis-dev-tipografi-oge"><span class="b0000-acilis-dev-tipografi-oikon material-symbols-outlined" aria-hidden="true">accessible</span><span class="b0000-acilis-dev-tipografi-ometin">Erişilebilir bina</span></li><li class="b0000-acilis-dev-tipografi-oge"><span class="b0000-acilis-dev-tipografi-oikon material-symbols-outlined" aria-hidden="true">lock</span><span class="b0000-acilis-dev-tipografi-ometin">Gizli sağlık verisi</span></li></ul></div><h1 class="b0000-acilis-dev-tipografi-h1 b0000-acilis-dev-tipografi-dev b0000-acilis-dev-tipografi-gir" id="b0000-acilis-dev-tipografi-s04cd8-b">Sekiz branş, tek takvim, net bilgi</h1><div class="b0000-acilis-dev-tipografi-alt b0000-acilis-dev-tipografi-gir"><p class="b0000-acilis-dev-tipografi-metin">Randevu talepleri hekim takvimine göre onaylanır; onay bilgisi telefon veya e-posta ile iletilir. Acil durumlarda lütfen 112’yi arayın.</p><div class="b0000-acilis-dev-tipografi-cta"><a class="b0000-acilis-dev-tipografi-dugme" href="/tr/randevu/">Randevu al<span class="material-symbols-outlined mx-flip" aria-hidden="true">arrow_forward</span></a><a class="b0000-acilis-dev-tipografi-dugme b0000-acilis-dev-tipografi-dugme--ikincil" href="/tr/tedaviler/">Branşlar</a></div></div><figure class="b0000-acilis-dev-tipografi-bant"><img class="b0000-acilis-dev-tipografi-gorsel" src="/img/klinik-klinik-oda.webp" alt="Gün ışığı alan muayene odası" width="1920" height="730" loading="eager" fetchpriority="high" decoding="async" /></figure>
+  </div>
+</section>
+
+
+<section class="b0001-sayac-dev-tek b0001-sayac-dev-tek--bassiz" >
+  <div class="b0001-sayac-dev-tek-ic">
     
-    <ul class="b0001-s2-list"><li class="b0001-s2-item"><span class="b0001-s2-ikon" aria-hidden="true"><span class="material-symbols-outlined">medical_services</span></span><div class="b0001-s2-deger"><bdi dir="ltr"><span class="b0001-s2-sayi" data-s2-hedef="8" data-s2-ondalik="0">8</span></bdi></div><p class="b0001-s2-etiket">Hekim ve uzman</p><p class="b0001-s2-aciklama">Gerçek unvan ve uzmanlık</p></li><li class="b0001-s2-item"><span class="b0001-s2-ikon" aria-hidden="true"><span class="material-symbols-outlined">category</span></span><div class="b0001-s2-deger"><bdi dir="ltr"><span class="b0001-s2-sayi" data-s2-hedef="9" data-s2-ondalik="0">9</span></bdi></div><p class="b0001-s2-etiket">Birim</p><p class="b0001-s2-aciklama">Sekiz branş ve laboratuvar</p></li><li class="b0001-s2-item"><span class="b0001-s2-ikon" aria-hidden="true"><span class="material-symbols-outlined">schedule</span></span><div class="b0001-s2-deger"><bdi dir="ltr"><span class="b0001-s2-sayi" data-s2-hedef="15" data-s2-ondalik="0">15</span><span class="b0001-s2-sonek"> dk</span></bdi></div><p class="b0001-s2-etiket">Kayıt için erken geliş</p><p class="b0001-s2-aciklama">Randevu saatinden önce</p></li><li class="b0001-s2-item"><span class="b0001-s2-ikon" aria-hidden="true"><span class="material-symbols-outlined">calendar_month</span></span><div class="b0001-s2-deger"><bdi dir="ltr"><span class="b0001-s2-sayi" data-s2-hedef="6" data-s2-ondalik="0">6</span></bdi></div><p class="b0001-s2-etiket">Gün açık (haftalık)</p><p class="b0001-s2-aciklama">Pazar kapalı</p></li></ul>
+    <div class="b0001-sayac-dev-tek-ana"><span class="b0001-sayac-dev-tek-dev"><span data-hedef="8" data-ondalik="0">8</span></span><div class="b0001-sayac-dev-tek-ana-yazi"><span class="b0001-sayac-dev-tek-ikon material-symbols-outlined" aria-hidden="true">medical_services</span><h3 class="b0001-sayac-dev-tek-ana-etiket">Hekim ve uzman</h3><p class="b0001-sayac-dev-tek-not">Gerçek unvan ve uzmanlık</p></div></div><ul class="b0001-sayac-dev-tek-diger" role="list"><li class="b0001-sayac-dev-tek-oge"><span class="b0001-sayac-dev-tek-sayi"><span data-hedef="9" data-ondalik="0">9</span></span><h3 class="b0001-sayac-dev-tek-etiket">Birim</h3></li><li class="b0001-sayac-dev-tek-oge"><span class="b0001-sayac-dev-tek-sayi"><span data-hedef="15" data-ondalik="0">15</span><span class="b0001-sayac-dev-tek-ek">dk</span></span><h3 class="b0001-sayac-dev-tek-etiket">Kayıt için erken geliş</h3></li><li class="b0001-sayac-dev-tek-oge"><span class="b0001-sayac-dev-tek-sayi"><span data-hedef="6" data-ondalik="0">6</span></span><h3 class="b0001-sayac-dev-tek-etiket">Gün açık (haftalık)</h3></li></ul>
   </div>
 </section>
 
 
-
 <script>
-  
-  (function () {
-    var kok = document.getElementById("s2-gz24ul");
-    if (!kok || kok.getAttribute("data-s2-hazir") === "1") { return; }
-    kok.setAttribute("data-s2-hazir", "1");
-    var azalt = false;
-    try { azalt = window.matchMedia("(prefers-reduced-motion: reduce)").matches; } catch (e) { azalt = false; }
-    if (azalt || !("IntersectionObserver" in window) || !window.requestAnimationFrame) { return; }
-    var dil = (kok.getAttribute("data-s2-dil") || document.documentElement.getAttribute("lang") || "tr").split("-")[0];
-    var sure = parseInt(kok.getAttribute("data-s2-sure"), 10);
-    if (!isFinite(sure) || sure < 200) { sure = 1000; }
-    var bicim = null;
-    function yaz(n, ondalik) {
-      try {
-        if (!bicim) { bicim = {}; }
-        if (!bicim[ondalik]) { bicim[ondalik] = new Intl.NumberFormat(dil + "-u-nu-latn", { minimumFractionDigits: ondalik, maximumFractionDigits: ondalik }); }
-        return bicim[ondalik].format(n);
-      } catch (e) { return n.toFixed(ondalik); }
-    }
-    function say(el) {
-      var hedef = parseFloat(el.getAttribute("data-s2-hedef"));
-      var ondalik = parseInt(el.getAttribute("data-s2-ondalik"), 10) || 0;
-      if (!isFinite(hedef)) { return; }
-      var bas = null;
-      function adim(ts) {
-        if (bas === null) { bas = ts; }
-        var p = Math.min(1, (ts - bas) / sure);
-        var e = 1 - Math.pow(1 - p, 3);
-        el.textContent = yaz(hedef * e, ondalik);
-        if (p < 1) { window.requestAnimationFrame(adim); } else { el.textContent = yaz(hedef, ondalik); }
-      }
-      el.textContent = yaz(0, ondalik);
-      window.requestAnimationFrame(adim);
-    }
-    var sayilar = kok.querySelectorAll(".b0001-s2-sayi[data-s2-hedef]");
-    var io = new IntersectionObserver(function (girdiler) {
-      var j;
-      for (j = 0; j < girdiler.length; j++) {
-        if (girdiler[j].isIntersecting) { say(girdiler[j].target); io.unobserve(girdiler[j].target); }
-      }
-    }, { threshold: 0.4 });
-    var i;
-    for (i = 0; i < sayilar.length; i++) { io.observe(sayilar[i]); }
-  })();
-</script>
-<section class="b0002-hs b0002-hs-yatay-ust" id="hs-ciz279">
-  <div class="b0002-hs-wrap">
-    <header class="b0002-hs-head"><p class="b0002-hs-eyebrow">Branşlar</p><h2 class="b0002-hs-title">Hangi branşlarda hizmet veriyoruz?</h2><p class="b0002-hs-desc">Her branşta muayene, gerekli tetkikler ve takip planı hekim tarafından belirlenir.</p></header>
-    <div class="b0002-hs-body">
-      <div class="b0002-hs-tabs" role="tablist" aria-label="Hizmet sekmeleri" aria-orientation="horizontal"><button type="button" class="b0002-hs-tab" role="tab" id="hs-ciz279-t0" aria-controls="hs-ciz279-p0" aria-selected="true" tabindex="0"><span class="b0002-hs-ikon"><span class="material-symbols-outlined" aria-hidden="true">stethoscope</span></span><span class="b0002-hs-tab-ad">Dahiliye (İç Hastalıkları)</span><span class="b0002-hs-ok" aria-hidden="true"><span class="material-symbols-outlined">arrow_forward</span></span></button><button type="button" class="b0002-hs-tab" role="tab" id="hs-ciz279-t1" aria-controls="hs-ciz279-p1" aria-selected="false" tabindex="-1"><span class="b0002-hs-ikon"><span class="material-symbols-outlined" aria-hidden="true">ecg_heart</span></span><span class="b0002-hs-tab-ad">Kardiyoloji</span><span class="b0002-hs-ok" aria-hidden="true"><span class="material-symbols-outlined">arrow_forward</span></span></button><button type="button" class="b0002-hs-tab" role="tab" id="hs-ciz279-t2" aria-controls="hs-ciz279-p2" aria-selected="false" tabindex="-1"><span class="b0002-hs-ikon"><span class="material-symbols-outlined" aria-hidden="true">child_care</span></span><span class="b0002-hs-tab-ad">Çocuk Sağlığı ve Hastalıkları</span><span class="b0002-hs-ok" aria-hidden="true"><span class="material-symbols-outlined">arrow_forward</span></span></button><button type="button" class="b0002-hs-tab" role="tab" id="hs-ciz279-t3" aria-controls="hs-ciz279-p3" aria-selected="false" tabindex="-1"><span class="b0002-hs-ikon"><span class="material-symbols-outlined" aria-hidden="true">pregnant_woman</span></span><span class="b0002-hs-tab-ad">Kadın Hastalıkları ve Doğum</span><span class="b0002-hs-ok" aria-hidden="true"><span class="material-symbols-outlined">arrow_forward</span></span></button><button type="button" class="b0002-hs-tab" role="tab" id="hs-ciz279-t4" aria-controls="hs-ciz279-p4" aria-selected="false" tabindex="-1"><span class="b0002-hs-ikon"><span class="material-symbols-outlined" aria-hidden="true">accessibility_new</span></span><span class="b0002-hs-tab-ad">Ortopedi ve Travmatoloji</span><span class="b0002-hs-ok" aria-hidden="true"><span class="material-symbols-outlined">arrow_forward</span></span></button><button type="button" class="b0002-hs-tab" role="tab" id="hs-ciz279-t5" aria-controls="hs-ciz279-p5" aria-selected="false" tabindex="-1"><span class="b0002-hs-ikon"><span class="material-symbols-outlined" aria-hidden="true">visibility</span></span><span class="b0002-hs-tab-ad">Göz Hastalıkları</span><span class="b0002-hs-ok" aria-hidden="true"><span class="material-symbols-outlined">arrow_forward</span></span></button></div>
-      <div class="b0002-hs-panels"><div class="b0002-hs-panel b0002-hs-on" role="tabpanel" id="hs-ciz279-p0" aria-labelledby="hs-ciz279-t0" tabindex="0"><button type="button" class="b0002-hs-acc" aria-expanded="true" aria-controls="hs-ciz279-p0"><span class="b0002-hs-ikon"><span class="material-symbols-outlined" aria-hidden="true">stethoscope</span></span><span class="b0002-hs-tab-ad">Dahiliye (İç Hastalıkları)</span><span class="b0002-hs-acc-ok" aria-hidden="true"><span class="material-symbols-outlined">expand_more</span></span></button><div class="b0002-hs-panel-in"><div class="b0002-hs-media"><img src="/img/klinik-klinik-oda.webp" alt="Dahiliye (İç Hastalıkları)" width="1200" height="675" loading="lazy" decoding="async" /></div><div class="b0002-hs-metin"><h3 class="b0002-hs-panel-ad">Dahiliye (İç Hastalıkları)</h3><p class="b0002-hs-panel-ozet">Erişkinlerde genel sağlık değerlendirmesi, kronik hastalık takibi ve düzenli kontrol planlaması.</p><p class="b0002-hs-maddeler-baslik">Süreç</p><ul class="b0002-hs-maddeler"><li><span class="material-symbols-outlined" aria-hidden="true">check_circle</span><span>Hekim muayenesi</span></li><li><span class="material-symbols-outlined" aria-hidden="true">check_circle</span><span>Gerekli tetkik planı</span></li><li><span class="material-symbols-outlined" aria-hidden="true">check_circle</span><span>Takip randevusu</span></li></ul><a class="b0002-hs-btn" href="/tr/randevu/"><span>Randevu al</span><span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span></a></div></div></div><div class="b0002-hs-panel" role="tabpanel" id="hs-ciz279-p1" aria-labelledby="hs-ciz279-t1" tabindex="0"><button type="button" class="b0002-hs-acc" aria-expanded="false" aria-controls="hs-ciz279-p1"><span class="b0002-hs-ikon"><span class="material-symbols-outlined" aria-hidden="true">ecg_heart</span></span><span class="b0002-hs-tab-ad">Kardiyoloji</span><span class="b0002-hs-acc-ok" aria-hidden="true"><span class="material-symbols-outlined">expand_more</span></span></button><div class="b0002-hs-panel-in"><div class="b0002-hs-media"><img src="/img/klinik-alet-yakin.webp" alt="Kardiyoloji" width="1200" height="675" loading="lazy" decoding="async" /></div><div class="b0002-hs-metin"><h3 class="b0002-hs-panel-ad">Kardiyoloji</h3><p class="b0002-hs-panel-ozet">Kalp ve damar sağlığı muayenesi, EKG, efor testi ve ritim izlemi.</p><p class="b0002-hs-maddeler-baslik">Süreç</p><ul class="b0002-hs-maddeler"><li><span class="material-symbols-outlined" aria-hidden="true">check_circle</span><span>Hekim muayenesi</span></li><li><span class="material-symbols-outlined" aria-hidden="true">check_circle</span><span>Gerekli tetkik planı</span></li><li><span class="material-symbols-outlined" aria-hidden="true">check_circle</span><span>Takip randevusu</span></li></ul><a class="b0002-hs-btn" href="/tr/randevu/"><span>Randevu al</span><span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span></a></div></div></div><div class="b0002-hs-panel" role="tabpanel" id="hs-ciz279-p2" aria-labelledby="hs-ciz279-t2" tabindex="0"><button type="button" class="b0002-hs-acc" aria-expanded="false" aria-controls="hs-ciz279-p2"><span class="b0002-hs-ikon"><span class="material-symbols-outlined" aria-hidden="true">child_care</span></span><span class="b0002-hs-tab-ad">Çocuk Sağlığı ve Hastalıkları</span><span class="b0002-hs-acc-ok" aria-hidden="true"><span class="material-symbols-outlined">expand_more</span></span></button><div class="b0002-hs-panel-in"><div class="b0002-hs-media"><img src="/img/klinik-bekleme.webp" alt="Çocuk Sağlığı ve Hastalıkları" width="1200" height="675" loading="lazy" decoding="async" /></div><div class="b0002-hs-metin"><h3 class="b0002-hs-panel-ad">Çocuk Sağlığı ve Hastalıkları</h3><p class="b0002-hs-panel-ozet">Bebek ve çocuklarda büyüme takibi, aşı takvimi ve enfeksiyon muayeneleri.</p><p class="b0002-hs-maddeler-baslik">Süreç</p><ul class="b0002-hs-maddeler"><li><span class="material-symbols-outlined" aria-hidden="true">check_circle</span><span>Hekim muayenesi</span></li><li><span class="material-symbols-outlined" aria-hidden="true">check_circle</span><span>Gerekli tetkik planı</span></li><li><span class="material-symbols-outlined" aria-hidden="true">check_circle</span><span>Takip randevusu</span></li></ul><a class="b0002-hs-btn" href="/tr/randevu/"><span>Randevu al</span><span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span></a></div></div></div><div class="b0002-hs-panel" role="tabpanel" id="hs-ciz279-p3" aria-labelledby="hs-ciz279-t3" tabindex="0"><button type="button" class="b0002-hs-acc" aria-expanded="false" aria-controls="hs-ciz279-p3"><span class="b0002-hs-ikon"><span class="material-symbols-outlined" aria-hidden="true">pregnant_woman</span></span><span class="b0002-hs-tab-ad">Kadın Hastalıkları ve Doğum</span><span class="b0002-hs-acc-ok" aria-hidden="true"><span class="material-symbols-outlined">expand_more</span></span></button><div class="b0002-hs-panel-in"><div class="b0002-hs-media"><img src="/img/klinik-muayene-koltugu.webp" alt="Kadın Hastalıkları ve Doğum" width="1200" height="675" loading="lazy" decoding="async" /></div><div class="b0002-hs-metin"><h3 class="b0002-hs-panel-ad">Kadın Hastalıkları ve Doğum</h3><p class="b0002-hs-panel-ozet">Gebelik takibi, jinekolojik muayene ve koruyucu sağlık taramaları.</p><p class="b0002-hs-maddeler-baslik">Süreç</p><ul class="b0002-hs-maddeler"><li><span class="material-symbols-outlined" aria-hidden="true">check_circle</span><span>Hekim muayenesi</span></li><li><span class="material-symbols-outlined" aria-hidden="true">check_circle</span><span>Gerekli tetkik planı</span></li><li><span class="material-symbols-outlined" aria-hidden="true">check_circle</span><span>Takip randevusu</span></li></ul><a class="b0002-hs-btn" href="/tr/randevu/"><span>Randevu al</span><span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span></a></div></div></div><div class="b0002-hs-panel" role="tabpanel" id="hs-ciz279-p4" aria-labelledby="hs-ciz279-t4" tabindex="0"><button type="button" class="b0002-hs-acc" aria-expanded="false" aria-controls="hs-ciz279-p4"><span class="b0002-hs-ikon"><span class="material-symbols-outlined" aria-hidden="true">accessibility_new</span></span><span class="b0002-hs-tab-ad">Ortopedi ve Travmatoloji</span><span class="b0002-hs-acc-ok" aria-hidden="true"><span class="material-symbols-outlined">expand_more</span></span></button><div class="b0002-hs-panel-in"><div class="b0002-hs-media"><img src="/img/klinik-hekim-eli.webp" alt="Ortopedi ve Travmatoloji" width="1200" height="675" loading="lazy" decoding="async" /></div><div class="b0002-hs-metin"><h3 class="b0002-hs-panel-ad">Ortopedi ve Travmatoloji</h3><p class="b0002-hs-panel-ozet">Kas-iskelet sistemi şikâyetleri, spor yaralanmaları, kırık ve çıkık takibi.</p><p class="b0002-hs-maddeler-baslik">Süreç</p><ul class="b0002-hs-maddeler"><li><span class="material-symbols-outlined" aria-hidden="true">check_circle</span><span>Hekim muayenesi</span></li><li><span class="material-symbols-outlined" aria-hidden="true">check_circle</span><span>Gerekli tetkik planı</span></li><li><span class="material-symbols-outlined" aria-hidden="true">check_circle</span><span>Takip randevusu</span></li></ul><a class="b0002-hs-btn" href="/tr/randevu/"><span>Randevu al</span><span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span></a></div></div></div><div class="b0002-hs-panel" role="tabpanel" id="hs-ciz279-p5" aria-labelledby="hs-ciz279-t5" tabindex="0"><button type="button" class="b0002-hs-acc" aria-expanded="false" aria-controls="hs-ciz279-p5"><span class="b0002-hs-ikon"><span class="material-symbols-outlined" aria-hidden="true">visibility</span></span><span class="b0002-hs-tab-ad">Göz Hastalıkları</span><span class="b0002-hs-acc-ok" aria-hidden="true"><span class="material-symbols-outlined">expand_more</span></span></button><div class="b0002-hs-panel-in"><div class="b0002-hs-media"><img src="/img/klinik-tedavi-1.webp" alt="Göz Hastalıkları" width="1200" height="675" loading="lazy" decoding="async" /></div><div class="b0002-hs-metin"><h3 class="b0002-hs-panel-ad">Göz Hastalıkları</h3><p class="b0002-hs-panel-ozet">Görme muayenesi, göz tansiyonu ölçümü ve göz dibi değerlendirmesi.</p><p class="b0002-hs-maddeler-baslik">Süreç</p><ul class="b0002-hs-maddeler"><li><span class="material-symbols-outlined" aria-hidden="true">check_circle</span><span>Hekim muayenesi</span></li><li><span class="material-symbols-outlined" aria-hidden="true">check_circle</span><span>Gerekli tetkik planı</span></li><li><span class="material-symbols-outlined" aria-hidden="true">check_circle</span><span>Takip randevusu</span></li></ul><a class="b0002-hs-btn" href="/tr/randevu/"><span>Randevu al</span><span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span></a></div></div></div></div>
-    </div>
-  </div>
-</section>
-
-
-
-<script>
-  
-  (function () {
-    var kok = document.getElementById("hs-ciz279");
-    if (!kok || kok.getAttribute("data-hs-hazir") === "1") { return; }
-    kok.setAttribute("data-hs-hazir", "1");
-    kok.className += " b0002-hs-js";
-    var sekmeler = kok.querySelectorAll(".b0002-hs-tab");
-    var paneller = kok.querySelectorAll(".b0002-hs-panel");
-    var accler = kok.querySelectorAll(".b0002-hs-acc");
-    var yatay = kok.querySelector(".b0002-hs-tabs").getAttribute("aria-orientation") !== "vertical";
-    var n = sekmeler.length;
-    if (!n) { return; }
-
-    function rtlMi() {
-      var el = kok;
-      while (el && el !== document.documentElement) {
-        if (el.getAttribute("dir")) { return el.getAttribute("dir") === "rtl"; }
-        el = el.parentNode;
-      }
-      return (document.documentElement.getAttribute("dir") || "") === "rtl";
-    }
-
-    function sec(i, odakla) {
-      var j;
-      for (j = 0; j < n; j++) {
-        var acik = j === i;
-        sekmeler[j].setAttribute("aria-selected", acik ? "true" : "false");
-        sekmeler[j].setAttribute("tabindex", acik ? "0" : "-1");
-        if (paneller[j]) {
-          if (acik) { paneller[j].className += " b0002-hs-on"; }
-          else { paneller[j].className = paneller[j].className.replace(/\s*b0002-hs-on\b/g, ""); }
-        }
-        if (accler[j]) { accler[j].setAttribute("aria-expanded", acik ? "true" : "false"); }
-      }
-      if (odakla) { sekmeler[i].focus(); }
-    }
-
-    function tusla(ev) {
-      var i = parseInt(ev.currentTarget.getAttribute("data-hs-i"), 10);
-      var k = ev.key;
-      var ileri = yatay ? (rtlMi() ? "ArrowLeft" : "ArrowRight") : "ArrowDown";
-      var geri = yatay ? (rtlMi() ? "ArrowRight" : "ArrowLeft") : "ArrowUp";
-      var hedef = -1;
-      if (k === ileri) { hedef = (i + 1) % n; }
-      else if (k === geri) { hedef = (i - 1 + n) % n; }
-      else if (k === "Home") { hedef = 0; }
-      else if (k === "End") { hedef = n - 1; }
-      if (hedef !== -1) { ev.preventDefault(); sec(hedef, true); }
-    }
-
-    var i;
-    for (i = 0; i < n; i++) {
-      sekmeler[i].setAttribute("data-hs-i", String(i));
-      sekmeler[i].addEventListener("click", function (ev) { sec(parseInt(ev.currentTarget.getAttribute("data-hs-i"), 10), false); });
-      sekmeler[i].addEventListener("keydown", tusla);
-      if (accler[i]) {
-        accler[i].setAttribute("data-hs-i", String(i));
-        accler[i].addEventListener("click", function (ev) {
-          var idx = parseInt(ev.currentTarget.getAttribute("data-hs-i"), 10);
-          var acikMi = ev.currentTarget.getAttribute("aria-expanded") === "true";
-          if (acikMi) {
-            
-            paneller[idx].className = paneller[idx].className.replace(/\s*b0002-hs-on\b/g, "");
-            ev.currentTarget.setAttribute("aria-expanded", "false");
-          } else { sec(idx, false); }
+  (() => {
+    const P = "b0001-sayac-dev-tek";
+    const az = !!(window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches);
+    const gozlem = (s, P, az) => {
+        const gor = () => s.classList.add(P + "--gor");
+        s.classList.add(P + "--hazir");
+        if (az || !("IntersectionObserver" in window)) { gor(); return; }
+        const io = new IntersectionObserver((gs) => {
+          gs.forEach((g) => { if (g.isIntersecting) { gor(); io.disconnect(); } });
+        }, { threshold: 0.15 });
+        io.observe(s);
+      };
+    const sayac = (s, P, az) => {
+        const el = [...s.querySelectorAll("[data-hedef]")];
+        if (!el.length || az || !("IntersectionObserver" in window)) return;
+        const dl = document.documentElement.lang || undefined;
+        const oynat = () => el.forEach((e) => {
+          const h = Number(e.dataset.hedef);
+          const od = Number(e.dataset.ondalik) || 0;
+          const son = e.textContent;
+          if (!Number.isFinite(h)) return;
+          let f;
+          try { f = new Intl.NumberFormat(dl, { minimumFractionDigits: od, maximumFractionDigits: od }); } catch (x) { return; }
+          const t0 = performance.now();
+          const adim = (t) => {
+            const p = Math.min(1, (t - t0) / 1300);
+            e.textContent = p < 1 ? f.format(h * (1 - Math.pow(1 - p, 3))) : son;
+            if (p < 1) requestAnimationFrame(adim);
+          };
+          requestAnimationFrame(adim);
         });
-      }
-    }
-    sec(0, false);
+        const io = new IntersectionObserver((gs) => {
+          gs.forEach((g) => { if (g.isIntersecting) { oynat(); io.disconnect(); } });
+        }, { threshold: 0.3 });
+        io.observe(s);
+      };
+    document.querySelectorAll("." + P).forEach((s) => {
+      if (s.dataset.fbHazir) return;
+      s.dataset.fbHazir = "1";
+      gozlem(s, P, az);
+      sayac(s, P, az);
+    });
   })();
 </script>
-<section class="b0003-t2 b0003-t2--yatay-liste b0003-t2--hover-sosyal" id="t2-v86him">
-  <div class="b0003-t2__wrap">
-    <header class="b0003-t2__head"><h2 class="b0003-t2__title">Hekimlerimiz</h2><p class="b0003-t2__desc">Hekim bilgileri örnek amaçlıdır (kurgusal); unvan ve uzmanlık alanları gerçek tıp terimleriyle verilmiştir. Fotoğraf yerine baş harf kullanılır.</p></header>
-    <div class="b0003-t2__chips" role="group" aria-label="Bölüme göre filtrele" hidden><button type="button" class="b0003-t2__chip" data-t2-dept="" aria-pressed="true">Tümü <bdi class="b0003-t2__chip-n">8</bdi></button><button type="button" class="b0003-t2__chip" data-t2-dept="dahili" aria-pressed="false">Dahili branşlar <bdi class="b0003-t2__chip-n">4</bdi></button><button type="button" class="b0003-t2__chip" data-t2-dept="cerrahi" aria-pressed="false">Cerrahi branşlar <bdi class="b0003-t2__chip-n">3</bdi></button><button type="button" class="b0003-t2__chip" data-t2-dept="destek" aria-pressed="false">Destek birimleri <bdi class="b0003-t2__chip-n">1</bdi></button></div>
-    <p class="b0003-t2__empty" role="status" aria-live="polite" hidden></p>
-    <ul class="b0003-t2__grid"><li class="b0003-t2__card" data-t2-dept="dahili" style="--t2-i:0"><div class="b0003-t2__media"><span class="b0003-t2__ph" role="img" aria-label="Uzm. Dr. Deniz Kaya"><span class="b0003-t2__bas">UD</span></span><div class="b0003-t2__overlay"></div></div><div class="b0003-t2__body"><h3 class="b0003-t2__name">Uzm. Dr. Deniz Kaya</h3><p class="b0003-t2__role">Dahiliye (İç Hastalıkları) uzmanı</p><p class="b0003-t2__bio">Randevu ile muayene; süreç hekim tarafından anlatılır.</p></div></li><li class="b0003-t2__card" data-t2-dept="dahili" style="--t2-i:1"><div class="b0003-t2__media"><span class="b0003-t2__ph" role="img" aria-label="Uzm. Dr. Pelin Us"><span class="b0003-t2__bas">UD</span></span><div class="b0003-t2__overlay"></div></div><div class="b0003-t2__body"><h3 class="b0003-t2__name">Uzm. Dr. Pelin Us</h3><p class="b0003-t2__role">Kardiyoloji uzmanı</p><p class="b0003-t2__bio">Randevu ile muayene; süreç hekim tarafından anlatılır.</p></div></li><li class="b0003-t2__card" data-t2-dept="dahili" style="--t2-i:2"><div class="b0003-t2__media"><span class="b0003-t2__ph" role="img" aria-label="Uzm. Dr. Tolga Şen"><span class="b0003-t2__bas">UD</span></span><div class="b0003-t2__overlay"></div></div><div class="b0003-t2__body"><h3 class="b0003-t2__name">Uzm. Dr. Tolga Şen</h3><p class="b0003-t2__role">Çocuk Sağlığı ve Hastalıkları uzmanı</p><p class="b0003-t2__bio">Randevu ile muayene; süreç hekim tarafından anlatılır.</p></div></li><li class="b0003-t2__card" data-t2-dept="cerrahi" style="--t2-i:3"><div class="b0003-t2__media"><span class="b0003-t2__ph" role="img" aria-label="Uzm. Dr. Gül Ersoy"><span class="b0003-t2__bas">UD</span></span><div class="b0003-t2__overlay"></div></div><div class="b0003-t2__body"><h3 class="b0003-t2__name">Uzm. Dr. Gül Ersoy</h3><p class="b0003-t2__role">Kadın Hastalıkları ve Doğum uzmanı</p><p class="b0003-t2__bio">Randevu ile muayene; süreç hekim tarafından anlatılır.</p></div></li><li class="b0003-t2__card" data-t2-dept="cerrahi" style="--t2-i:4"><div class="b0003-t2__media"><span class="b0003-t2__ph" role="img" aria-label="Uzm. Dr. Onur Taş"><span class="b0003-t2__bas">UD</span></span><div class="b0003-t2__overlay"></div></div><div class="b0003-t2__body"><h3 class="b0003-t2__name">Uzm. Dr. Onur Taş</h3><p class="b0003-t2__role">Ortopedi ve Travmatoloji uzmanı</p><p class="b0003-t2__bio">Randevu ile muayene; süreç hekim tarafından anlatılır.</p></div></li><li class="b0003-t2__card" data-t2-dept="cerrahi" style="--t2-i:5"><div class="b0003-t2__media"><span class="b0003-t2__ph" role="img" aria-label="Uzm. Dr. Ece Balcı"><span class="b0003-t2__bas">UD</span></span><div class="b0003-t2__overlay"></div></div><div class="b0003-t2__body"><h3 class="b0003-t2__name">Uzm. Dr. Ece Balcı</h3><p class="b0003-t2__role">Göz Hastalıkları uzmanı</p><p class="b0003-t2__bio">Randevu ile muayene; süreç hekim tarafından anlatılır.</p></div></li><li class="b0003-t2__card" data-t2-dept="dahili" style="--t2-i:6"><div class="b0003-t2__media"><span class="b0003-t2__ph" role="img" aria-label="Uzm. Dr. Halil Koç"><span class="b0003-t2__bas">UD</span></span><div class="b0003-t2__overlay"></div></div><div class="b0003-t2__body"><h3 class="b0003-t2__name">Uzm. Dr. Halil Koç</h3><p class="b0003-t2__role">Nöroloji uzmanı</p><p class="b0003-t2__bio">Randevu ile muayene; süreç hekim tarafından anlatılır.</p></div></li><li class="b0003-t2__card" data-t2-dept="destek" style="--t2-i:7"><div class="b0003-t2__media"><span class="b0003-t2__ph" role="img" aria-label="Fzt. Seda Yıldız"><span class="b0003-t2__bas">FS</span></span><div class="b0003-t2__overlay"></div></div><div class="b0003-t2__body"><h3 class="b0003-t2__name">Fzt. Seda Yıldız</h3><p class="b0003-t2__role">Fizyoterapist</p><p class="b0003-t2__bio">Randevu ile muayene; süreç hekim tarafından anlatılır.</p></div></li></ul>
-    <p class="b0003-t2__ctawrap"><a class="b0003-t2__cta" href="/tr/randevu/"><span>Randevu al</span><span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span></a></p>
+<section class="b0002-hizmet-bento" aria-labelledby="b0002-hizmet-bento-ciz279-b">
+  <div class="b0002-hizmet-bento-ic">
+    <header class="b0002-hizmet-bento-bas"><p class="b0002-hizmet-bento-ust">Branşlar</p><h2 class="b0002-hizmet-bento-baslik" id="b0002-hizmet-bento-ciz279-b">Hangi branşlarda hizmet veriyoruz?</h2><p class="b0002-hizmet-bento-metin">Her branşta muayene, gerekli tetkikler ve takip planı hekim tarafından belirlenir.</p></header>
+    <ul class="b0002-hizmet-bento-bento"><li class="b0002-hizmet-bento-hucre b0002-hizmet-bento-hucre--buyuk"><img class="b0002-hizmet-bento-gorsel" src="/img/klinik-klinik-oda.webp" alt="Dahiliye (İç Hastalıkları)" width="800" height="600" loading="lazy" decoding="async" /><div class="b0002-hizmet-bento-yazi"><h3 class="b0002-hizmet-bento-kbaslik">Dahiliye (İç Hastalıkları)</h3><p class="b0002-hizmet-bento-kmetin">Erişkinlerde genel sağlık değerlendirmesi, kronik hastalık takibi ve düzenli kontrol planlaması.</p><ul class="b0002-hizmet-bento-maddeler"><li><span class="material-symbols-outlined" aria-hidden="true">check</span><span>Hekim muayenesi</span></li><li><span class="material-symbols-outlined" aria-hidden="true">check</span><span>Gerekli tetkik planı</span></li><li><span class="material-symbols-outlined" aria-hidden="true">check</span><span>Takip randevusu</span></li></ul><a class="b0002-hizmet-bento-git" href="/tr/randevu/">Randevu al<span class="material-symbols-outlined mx-flip" aria-hidden="true">arrow_forward</span></a></div></li><li class="b0002-hizmet-bento-hucre"><span class="b0002-hizmet-bento-ikon material-symbols-outlined" aria-hidden="true">ecg_heart</span><div class="b0002-hizmet-bento-yazi"><h3 class="b0002-hizmet-bento-kbaslik">Kardiyoloji</h3><p class="b0002-hizmet-bento-kmetin">Kalp ve damar sağlığı muayenesi, EKG, efor testi ve ritim izlemi.</p><ul class="b0002-hizmet-bento-maddeler"><li><span class="material-symbols-outlined" aria-hidden="true">check</span><span>Hekim muayenesi</span></li><li><span class="material-symbols-outlined" aria-hidden="true">check</span><span>Gerekli tetkik planı</span></li><li><span class="material-symbols-outlined" aria-hidden="true">check</span><span>Takip randevusu</span></li></ul><a class="b0002-hizmet-bento-git" href="/tr/randevu/">Randevu al<span class="material-symbols-outlined mx-flip" aria-hidden="true">arrow_forward</span></a></div></li><li class="b0002-hizmet-bento-hucre"><span class="b0002-hizmet-bento-ikon material-symbols-outlined" aria-hidden="true">child_care</span><div class="b0002-hizmet-bento-yazi"><h3 class="b0002-hizmet-bento-kbaslik">Çocuk Sağlığı ve Hastalıkları</h3><p class="b0002-hizmet-bento-kmetin">Bebek ve çocuklarda büyüme takibi, aşı takvimi ve enfeksiyon muayeneleri.</p><ul class="b0002-hizmet-bento-maddeler"><li><span class="material-symbols-outlined" aria-hidden="true">check</span><span>Hekim muayenesi</span></li><li><span class="material-symbols-outlined" aria-hidden="true">check</span><span>Gerekli tetkik planı</span></li><li><span class="material-symbols-outlined" aria-hidden="true">check</span><span>Takip randevusu</span></li></ul><a class="b0002-hizmet-bento-git" href="/tr/randevu/">Randevu al<span class="material-symbols-outlined mx-flip" aria-hidden="true">arrow_forward</span></a></div></li><li class="b0002-hizmet-bento-hucre"><span class="b0002-hizmet-bento-ikon material-symbols-outlined" aria-hidden="true">pregnant_woman</span><div class="b0002-hizmet-bento-yazi"><h3 class="b0002-hizmet-bento-kbaslik">Kadın Hastalıkları ve Doğum</h3><p class="b0002-hizmet-bento-kmetin">Gebelik takibi, jinekolojik muayene ve koruyucu sağlık taramaları.</p><ul class="b0002-hizmet-bento-maddeler"><li><span class="material-symbols-outlined" aria-hidden="true">check</span><span>Hekim muayenesi</span></li><li><span class="material-symbols-outlined" aria-hidden="true">check</span><span>Gerekli tetkik planı</span></li><li><span class="material-symbols-outlined" aria-hidden="true">check</span><span>Takip randevusu</span></li></ul><a class="b0002-hizmet-bento-git" href="/tr/randevu/">Randevu al<span class="material-symbols-outlined mx-flip" aria-hidden="true">arrow_forward</span></a></div></li><li class="b0002-hizmet-bento-hucre"><span class="b0002-hizmet-bento-ikon material-symbols-outlined" aria-hidden="true">accessibility_new</span><div class="b0002-hizmet-bento-yazi"><h3 class="b0002-hizmet-bento-kbaslik">Ortopedi ve Travmatoloji</h3><p class="b0002-hizmet-bento-kmetin">Kas-iskelet sistemi şikâyetleri, spor yaralanmaları, kırık ve çıkık takibi.</p><ul class="b0002-hizmet-bento-maddeler"><li><span class="material-symbols-outlined" aria-hidden="true">check</span><span>Hekim muayenesi</span></li><li><span class="material-symbols-outlined" aria-hidden="true">check</span><span>Gerekli tetkik planı</span></li><li><span class="material-symbols-outlined" aria-hidden="true">check</span><span>Takip randevusu</span></li></ul><a class="b0002-hizmet-bento-git" href="/tr/randevu/">Randevu al<span class="material-symbols-outlined mx-flip" aria-hidden="true">arrow_forward</span></a></div></li><li class="b0002-hizmet-bento-hucre"><span class="b0002-hizmet-bento-ikon material-symbols-outlined" aria-hidden="true">visibility</span><div class="b0002-hizmet-bento-yazi"><h3 class="b0002-hizmet-bento-kbaslik">Göz Hastalıkları</h3><p class="b0002-hizmet-bento-kmetin">Görme muayenesi, göz tansiyonu ölçümü ve göz dibi değerlendirmesi.</p><ul class="b0002-hizmet-bento-maddeler"><li><span class="material-symbols-outlined" aria-hidden="true">check</span><span>Hekim muayenesi</span></li><li><span class="material-symbols-outlined" aria-hidden="true">check</span><span>Gerekli tetkik planı</span></li><li><span class="material-symbols-outlined" aria-hidden="true">check</span><span>Takip randevusu</span></li></ul><a class="b0002-hizmet-bento-git" href="/tr/randevu/">Randevu al<span class="material-symbols-outlined mx-flip" aria-hidden="true">arrow_forward</span></a></div></li></ul>
   </div>
-  <script type="application/json" id="t2-v86him-veri">{"lang":"tr","filter":true,"prefix":"","empty":"Bu bölümde gösterilecek kişi yok."}</script>
 </section>
 
 
+<section class="b0003-ekip-mozaik" aria-labelledby="b0003-ekip-mozaik-v86him-b">
+  <div class="b0003-ekip-mozaik-ic">
+    <header class="b0003-ekip-mozaik-bas"><h2 class="b0003-ekip-mozaik-baslik" id="b0003-ekip-mozaik-v86him-b">Hekimlerimiz</h2><p class="b0003-ekip-mozaik-metin">Hekim bilgileri örnek amaçlıdır (kurgusal); unvan ve uzmanlık alanları gerçek tıp terimleriyle verilmiştir. Fotoğraf yerine baş harf kullanılır.</p></header>
+    <ul class="b0003-ekip-mozaik-mozaik"><li class="b0003-ekip-mozaik-karo"><div class="b0003-ekip-mozaik-gorsel"><span class="b0003-ekip-mozaik-foto b0003-ekip-mozaik-harf" aria-hidden="true">UD</span></div><div class="b0003-ekip-mozaik-bilgi"><h3 class="b0003-ekip-mozaik-ad">Uzm. Dr. Deniz Kaya</h3><p class="b0003-ekip-mozaik-unvan">Dahiliye (İç Hastalıkları) uzmanı</p><p class="b0003-ekip-mozaik-bio">Randevu ile muayene; süreç hekim tarafından anlatılır.</p></div></li><li class="b0003-ekip-mozaik-karo"><div class="b0003-ekip-mozaik-gorsel"><span class="b0003-ekip-mozaik-foto b0003-ekip-mozaik-harf" aria-hidden="true">UD</span></div><div class="b0003-ekip-mozaik-bilgi"><h3 class="b0003-ekip-mozaik-ad">Uzm. Dr. Pelin Us</h3><p class="b0003-ekip-mozaik-unvan">Kardiyoloji uzmanı</p></div></li><li class="b0003-ekip-mozaik-karo"><div class="b0003-ekip-mozaik-gorsel"><span class="b0003-ekip-mozaik-foto b0003-ekip-mozaik-harf" aria-hidden="true">UD</span></div><div class="b0003-ekip-mozaik-bilgi"><h3 class="b0003-ekip-mozaik-ad">Uzm. Dr. Tolga Şen</h3><p class="b0003-ekip-mozaik-unvan">Çocuk Sağlığı ve Hastalıkları uzmanı</p></div></li><li class="b0003-ekip-mozaik-karo"><div class="b0003-ekip-mozaik-gorsel"><span class="b0003-ekip-mozaik-foto b0003-ekip-mozaik-harf" aria-hidden="true">UD</span></div><div class="b0003-ekip-mozaik-bilgi"><h3 class="b0003-ekip-mozaik-ad">Uzm. Dr. Gül Ersoy</h3><p class="b0003-ekip-mozaik-unvan">Kadın Hastalıkları ve Doğum uzmanı</p></div></li><li class="b0003-ekip-mozaik-karo"><div class="b0003-ekip-mozaik-gorsel"><span class="b0003-ekip-mozaik-foto b0003-ekip-mozaik-harf" aria-hidden="true">UD</span></div><div class="b0003-ekip-mozaik-bilgi"><h3 class="b0003-ekip-mozaik-ad">Uzm. Dr. Onur Taş</h3><p class="b0003-ekip-mozaik-unvan">Ortopedi ve Travmatoloji uzmanı</p></div></li><li class="b0003-ekip-mozaik-karo"><div class="b0003-ekip-mozaik-gorsel"><span class="b0003-ekip-mozaik-foto b0003-ekip-mozaik-harf" aria-hidden="true">UD</span></div><div class="b0003-ekip-mozaik-bilgi"><h3 class="b0003-ekip-mozaik-ad">Uzm. Dr. Ece Balcı</h3><p class="b0003-ekip-mozaik-unvan">Göz Hastalıkları uzmanı</p></div></li><li class="b0003-ekip-mozaik-karo"><div class="b0003-ekip-mozaik-gorsel"><span class="b0003-ekip-mozaik-foto b0003-ekip-mozaik-harf" aria-hidden="true">UD</span></div><div class="b0003-ekip-mozaik-bilgi"><h3 class="b0003-ekip-mozaik-ad">Uzm. Dr. Halil Koç</h3><p class="b0003-ekip-mozaik-unvan">Nöroloji uzmanı</p></div></li><li class="b0003-ekip-mozaik-karo"><div class="b0003-ekip-mozaik-gorsel"><span class="b0003-ekip-mozaik-foto b0003-ekip-mozaik-harf" aria-hidden="true">FS</span></div><div class="b0003-ekip-mozaik-bilgi"><h3 class="b0003-ekip-mozaik-ad">Fzt. Seda Yıldız</h3><p class="b0003-ekip-mozaik-unvan">Fizyoterapist</p></div></li></ul>
+  </div>
+</section>
 
-<script>
-  (function () {
-    var kok = document.getElementById("t2-v86him");
-    if (!kok || kok.getAttribute("data-t2-hazir") === "1") { return; }
-    kok.setAttribute("data-t2-hazir", "1");
-    var veri = {};
-    try { veri = JSON.parse(document.getElementById("t2-v86him-veri").textContent); } catch (e) { veri = {}; }
 
-    if (window.IntersectionObserver && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
-      kok.setAttribute("data-t2-anim", "1");
-      var io = new IntersectionObserver(function (g) {
-        for (var i = 0; i < g.length; i++) { if (g[i].isIntersecting) { kok.classList.add("is-in"); io.disconnect(); } }
-      }, { threshold: 0.1 });
-      io.observe(kok);
-    }
-    if (!veri.filter) { return; }
+<section class="b0004-surec-ters-sutun" aria-labelledby="b0004-surec-ters-sutun-s8y9t5-b">
+  <div class="b0004-surec-ters-sutun-ic">
+    <header class="b0004-surec-ters-sutun-bas"><p class="b0004-surec-ters-sutun-ust">Süreç</p><h2 class="b0004-surec-ters-sutun-baslik" id="b0004-surec-ters-sutun-s8y9t5-b">Randevudan muayeneye</h2><p class="b0004-surec-ters-sutun-metin">Dört adımda planlı bir ziyaret.</p></header>
+    <ol class="b0004-surec-ters-sutun-sutunlar"><li class="b0004-surec-ters-sutun-sutun"><span class="b0004-surec-ters-sutun-no">01</span><p class="b0004-surec-ters-sutun-etiket">Adım 1</p><h3 class="b0004-surec-ters-sutun-kbaslik">Randevu talebi</h3><p class="b0004-surec-ters-sutun-kmetin">Formu doldurun ya da bizi arayın.</p></li><li class="b0004-surec-ters-sutun-sutun"><span class="b0004-surec-ters-sutun-no">02</span><p class="b0004-surec-ters-sutun-etiket">Adım 2</p><h3 class="b0004-surec-ters-sutun-kbaslik">Onay</h3><p class="b0004-surec-ters-sutun-kmetin">Talebiniz hekim takvimine göre onaylanır.</p></li><li class="b0004-surec-ters-sutun-sutun"><span class="b0004-surec-ters-sutun-no">03</span><p class="b0004-surec-ters-sutun-etiket">Adım 3</p><h3 class="b0004-surec-ters-sutun-kbaslik">Kayıt</h3><p class="b0004-surec-ters-sutun-kmetin">Randevudan yaklaşık 15 dakika önce kayıt yaptırın.</p></li><li class="b0004-surec-ters-sutun-sutun"><span class="b0004-surec-ters-sutun-no">04</span><p class="b0004-surec-ters-sutun-etiket">Adım 4</p><h3 class="b0004-surec-ters-sutun-kbaslik">Muayene</h3><p class="b0004-surec-ters-sutun-kmetin">Hekiminiz sizi dinler, muayene eder ve süreci anlatır.</p></li></ol>
+  </div>
+</section>
 
-    var kartlar = kok.querySelectorAll(".b0003-t2__card");
-    var chips = kok.querySelectorAll(".b0003-t2__chip");
-    var chipKap = kok.querySelector(".b0003-t2__chips");
-    var bos = kok.querySelector(".b0003-t2__empty");
-    var i;
 
-    function uygula(aktif) {
-      var sayi = 0;
-      for (var j = 0; j < kartlar.length; j++) {
-        var goster = !aktif || (kartlar[j].getAttribute("data-t2-dept") || "") === aktif;
-        if (goster) { kartlar[j].removeAttribute("hidden"); sayi++; } else { kartlar[j].setAttribute("hidden", ""); }
-      }
-      for (var c = 0; c < chips.length; c++) {
-        chips[c].setAttribute("aria-pressed", (chips[c].getAttribute("data-t2-dept") || "") === aktif ? "true" : "false");
-      }
-      if (bos) { bos.textContent = sayi ? "" : (veri.empty || ""); if (sayi) { bos.setAttribute("hidden", ""); } else { bos.removeAttribute("hidden"); } }
-    }
-
+<section class="b0005-cagri-gorsel-zemin" aria-labelledby="b0005-cagri-gorsel-zemin-cy81hp-b">
+  <div class="b0005-cagri-gorsel-zemin-ic">
     
-    function mxIle() {
-      var liste = [];
-      for (i = 0; i < kartlar.length; i++) { liste.push({ i: i, dept: kartlar[i].getAttribute("data-t2-dept") || "" }); }
-      var f = window.MxFiltre.olustur({ items: liste, facets: { dept: { tip: "tek" } }, url: true, urlOnek: veri.prefix || "", dil: veri.lang });
-      f.abone(function (s) { uygula(s.durum.facet.dept || ""); });
-      for (i = 0; i < chips.length; i++) {
-        chips[i].addEventListener("click", function (ev) {
-          var id = ev.currentTarget.getAttribute("data-t2-dept") || "";
-          var simdi = f.durum().facet.dept || "";
-          f.ayarla({ dept: simdi === id ? "" : id });
-        });
-      }
-      uygula(f.durum().facet.dept || "");
-    }
-    function yerel() {
-      var aktif = "";
-      for (i = 0; i < chips.length; i++) {
-        chips[i].addEventListener("click", function (ev) {
-          var id = ev.currentTarget.getAttribute("data-t2-dept") || "";
-          aktif = aktif === id ? "" : id;
-          uygula(aktif);
-        });
-      }
-      uygula("");
-    }
-    function kur() {
-      if (window.mxLoad) {
-        window.mxLoad("mxfiltre").then(function () { if (window.MxFiltre) { mxIle(); } else { yerel(); } }, yerel);
-      } else { yerel(); }
-      if (chipKap) { chipKap.removeAttribute("hidden"); }
-    }
-    if (window.mxLoad || document.readyState === "complete") { kur(); } else { window.addEventListener("load", kur); }
-  })();
-</script>
-<section class="b0004-sa b0004-sa-kartli" id="sa-s8y9t5" style="--sa-n:4">
-  <div class="b0004-sa-wrap">
-    <header class="b0004-sa-head"><p class="b0004-sa-eyebrow">Süreç</p><h2 class="b0004-sa-title">Randevudan muayeneye</h2><p class="b0004-sa-desc">Dört adımda planlı bir ziyaret.</p></header>
-    <ol class="b0004-sa-list" aria-label="Süreç adımları"><li class="b0004-sa-step"><span class="b0004-sa-no" aria-hidden="true"><span class="material-symbols-outlined" aria-hidden="true">edit_calendar</span></span><div class="b0004-sa-govde"><span class="b0004-sa-etiket">Adım 1</span><h3 class="b0004-sa-h">Randevu talebi</h3><p class="b0004-sa-p">Formu doldurun ya da bizi arayın.</p></div><span class="b0004-sa-ok" aria-hidden="true"><span class="material-symbols-outlined">arrow_forward</span></span></li><li class="b0004-sa-step"><span class="b0004-sa-no" aria-hidden="true"><span class="material-symbols-outlined" aria-hidden="true">task_alt</span></span><div class="b0004-sa-govde"><span class="b0004-sa-etiket">Adım 2</span><h3 class="b0004-sa-h">Onay</h3><p class="b0004-sa-p">Talebiniz hekim takvimine göre onaylanır.</p></div><span class="b0004-sa-ok" aria-hidden="true"><span class="material-symbols-outlined">arrow_forward</span></span></li><li class="b0004-sa-step"><span class="b0004-sa-no" aria-hidden="true"><span class="material-symbols-outlined" aria-hidden="true">badge</span></span><div class="b0004-sa-govde"><span class="b0004-sa-etiket">Adım 3</span><h3 class="b0004-sa-h">Kayıt</h3><p class="b0004-sa-p">Randevudan yaklaşık 15 dakika önce kayıt yaptırın.</p></div><span class="b0004-sa-ok" aria-hidden="true"><span class="material-symbols-outlined">arrow_forward</span></span></li><li class="b0004-sa-step"><span class="b0004-sa-no" aria-hidden="true"><span class="material-symbols-outlined" aria-hidden="true">stethoscope</span></span><div class="b0004-sa-govde"><span class="b0004-sa-etiket">Adım 4</span><h3 class="b0004-sa-h">Muayene</h3><p class="b0004-sa-p">Hekiminiz sizi dinler, muayene eder ve süreci anlatır.</p></div><span class="b0004-sa-ok" aria-hidden="true"><span class="material-symbols-outlined">arrow_forward</span></span></li></ol>
-  </div>
-</section>
-
-
-
-<script>
-  
-  (function () {
-    var kok = document.getElementById("sa-s8y9t5");
-    if (!kok || kok.getAttribute("data-sa-hazir") === "1") { return; }
-    kok.setAttribute("data-sa-hazir", "1");
-    if (!("IntersectionObserver" in window)) { return; }
-    var adimlar = kok.querySelectorAll(".b0004-sa-step");
-    var n = adimlar.length;
-    if (!n) { return; }
-    var gorunen = [];
-    var i;
-    for (i = 0; i < n; i++) { gorunen.push(false); }
-    function uygula() {
-      var son = -1;
-      var j;
-      for (j = 0; j < n; j++) { if (gorunen[j]) { son = j; } }
-      for (j = 0; j < n; j++) {
-        var c = adimlar[j].className.replace(/\s*b0004-sa-(aktif|gecti)\b/g, "");
-        if (son >= 0 && j < son) { c += " b0004-sa-gecti"; }
-        else if (j === son) { c += " b0004-sa-aktif"; }
-        adimlar[j].className = c;
-      }
-    }
-    var io = new IntersectionObserver(function (girdiler) {
-      var j;
-      for (j = 0; j < girdiler.length; j++) {
-        gorunen[parseInt(girdiler[j].target.getAttribute("data-sa-i"), 10)] = girdiler[j].isIntersecting;
-      }
-      uygula();
-    }, { threshold: 0.5 });
-    for (i = 0; i < n; i++) { adimlar[i].setAttribute("data-sa-i", String(i)); io.observe(adimlar[i]); }
-  })();
-</script>
-<section class="b0005-c3 b0005-c3-gradient" id="c3-cy81hp">
-  <div class="b0005-c3-wrap">
-    <div class="b0005-c3-kutu">
-      <span class="b0005-c3-daire b0005-c3-daire-1" aria-hidden="true"></span>
-      <span class="b0005-c3-daire b0005-c3-daire-2" aria-hidden="true"></span>
-      <span class="b0005-c3-daire b0005-c3-daire-3" aria-hidden="true"></span>
-      <div class="b0005-c3-icerik">
-        <h2 class="b0005-c3-title">Muayene için randevunuzu oluşturun</h2>
-        <p class="b0005-c3-text">Randevu talepleri hekim takvimine göre onaylanır; onay bilgisi telefon veya e-posta ile iletilir. Acil durumlarda lütfen 112’yi arayın.</p>
-        <div class="b0005-c3-btns"><a class="b0005-c3-btn b0005-c3-btn-1" href="/tr/randevu/"><span>Randevu al</span><span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span></a><a class="b0005-c3-btn b0005-c3-btn-2" href="/tr/sss/">Sık sorulan sorular</a></div>
-      </div>
-      <div class="b0005-c3-yan"><div class="b0005-c3-kart"><div class="b0005-c3-kart-bas"><span class="b0005-c3-wa-ikon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.6.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.8 12 12 0 0 0 4.6 4 5.3 5.3 0 0 0 3.2.7 2.7 2.7 0 0 0 1.8-1.3 2.2 2.2 0 0 0 .2-1.3c-.1-.1-.3-.2-.5-.3z"/></svg></span><p class="b0005-c3-kart-title">Hemen ulaşın</p></div><a class="b0005-c3-num" href="tel:+903420000011"><bdi dir="ltr">+90 342 000 00 11</bdi></a><p class="b0005-c3-saat"><span class="material-symbols-outlined" aria-hidden="true">schedule</span><span><span class="b0005-c3-saat-etiket">Çalışma saatleri:</span> Hafta içi 08:00 – 19:00 · Cumartesi 09:00 – 13:00</span></p><a class="b0005-c3-wa" href="https://wa.me/903420000011?text=Merhaba%2C%20randevu%20almak%20istiyorum." target="_blank" rel="noopener"><span class="b0005-c3-wa-ikon b0005-c3-wa-ikon-kucuk" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.6.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.8 12 12 0 0 0 4.6 4 5.3 5.3 0 0 0 3.2.7 2.7 2.7 0 0 0 1.8-1.3 2.2 2.2 0 0 0 .2-1.3c-.1-.1-.3-.2-.5-.3z"/></svg></span><span>WhatsApp&#39;tan yazın</span></a></div></div>
-    </div>
+    <div class="b0005-cagri-gorsel-zemin-yazi"><h2 class="b0005-cagri-gorsel-zemin-baslik" id="b0005-cagri-gorsel-zemin-cy81hp-b">Muayene için randevunuzu oluşturun</h2><p class="b0005-cagri-gorsel-zemin-metin">Randevu talepleri hekim takvimine göre onaylanır; onay bilgisi telefon veya e-posta ile iletilir. Acil durumlarda lütfen 112’yi arayın.</p><div class="b0005-cagri-gorsel-zemin-cta"><a class="b0005-cagri-gorsel-zemin-dugme" href="/tr/randevu/">Randevu al<span class="material-symbols-outlined mx-flip" aria-hidden="true">arrow_forward</span></a><a class="b0005-cagri-gorsel-zemin-dugme b0005-cagri-gorsel-zemin-dugme--ikincil" href="/tr/sss/">Sık sorulan sorular</a></div></div>
   </div>
 </section>
 
 
 </div>
-  <div id="footer"><footer class="f0000-f10 f0000-f10--acik" role="contentinfo" id="f10-sy5uhs">
-  
-  <div class="f0000-f10__main f0000-f10__main--c5">
-    <div class="f0000-f10__col f0000-f10__brand">
-      <a href="/tr/" class="f0000-f10__logo" aria-label="Anasayfa - Nokta Tıp">
-        <img src="/img/logo.png" alt="Nokta Tıp Logo" loading="lazy" />
-      </a>
-      <p class="f0000-f10__about">Sekiz branşta randevu esaslı muayene. Kurgusal demo tıp merkezi.</p>
-      
-    </div>
-    <nav class="f0000-f10__col f0000-f10__pages" aria-label="Navigasyon">
-      <h3 class="f0000-f10__title">Sayfalar</h3>
-      <ul class="f0000-f10__list"><li><a class="f0000-f10__link" href="/tr/">Anasayfa</a></li><li><a class="f0000-f10__link" href="/tr/hekimlerimiz/">Hekimlerimiz</a></li><li><a class="f0000-f10__link" href="/tr/tedaviler/">Branşlar ve Tedaviler</a></li><li><a class="f0000-f10__link" href="/tr/randevu/">Randevu</a></li><li><a class="f0000-f10__link" href="/tr/sss/">Sık Sorulan Sorular</a></li><li><a class="f0000-f10__link" href="/tr/erisilebilirlik/">Erişilebilirlik</a></li><li><a class="f0000-f10__link" href="/tr/hasta-haklari/">Hasta Hakları</a></li><li><a class="f0000-f10__link" href="/tr/iletisim/">İletişim</a></li></ul>
-    </nav>
-    <div class="f0000-f10__col f0000-f10__services"><h3 class="f0000-f10__title">Branşlar</h3><ul class="f0000-f10__list"><li><a class="f0000-f10__link" href="/tr/tedaviler/">Dahiliye (İç Hastalıkları)</a></li><li><a class="f0000-f10__link" href="/tr/tedaviler/">Kardiyoloji</a></li><li><a class="f0000-f10__link" href="/tr/tedaviler/">Çocuk Sağlığı ve Hastalıkları</a></li><li><a class="f0000-f10__link" href="/tr/tedaviler/">Kadın Hastalıkları ve Doğum</a></li></ul></div>
-    <div class="f0000-f10__col f0000-f10__contact"><h3 class="f0000-f10__title">İletişim</h3><ul class="f0000-f10__list f0000-f10__list--ikon"><li><span class="material-symbols-outlined" aria-hidden="true">location_on</span><span>İncilipınar Mah. Nokta Sk. No: 5, Şehitkamil, Gaziantep (kurgusal adres)</span></li><li><span class="material-symbols-outlined" aria-hidden="true">call</span><a class="f0000-f10__link" href="tel:+903420000011" dir="ltr">+90 342 000 00 11</a></li><li><span class="material-symbols-outlined" aria-hidden="true">mail</span><a class="f0000-f10__link" href="mailto:randevu@noktatip.example">randevu@noktatip.example</a></li></ul></div>
-    <div class="f0000-f10__col f0000-f10__hours"><h3 class="f0000-f10__title">Çalışma Saatleri</h3><dl class="f0000-f10__dl"><div class="f0000-f10__hour"><dt>Pazartesi – Cuma</dt><dd>08:00 – 19:00</dd></div><div class="f0000-f10__hour"><dt>Cumartesi</dt><dd>09:00 – 13:00</dd></div><div class="f0000-f10__hour"><dt>Pazar</dt><dd>Kapalı</dd></div></dl></div>
+  <div id="footer"><footer class="f0000-alt-harita-kart f0000-alt-harita-kart--bassiz" >
+  <div class="f0000-alt-harita-kart-ic">
+    
+    <div class="f0000-alt-harita-kart-izgara"><div class="f0000-alt-harita-kart-kart"><span class="f0000-alt-harita-kart-pin material-symbols-outlined" aria-hidden="true">location_on</span><h2 class="f0000-alt-harita-kart-kbaslik">İletişim</h2><ul class="f0000-alt-harita-kart-iletisim"><li class="f0000-alt-harita-kart-il f0000-alt-harita-kart-il--adres"><span class="f0000-alt-harita-kart-il-ikon material-symbols-outlined" aria-hidden="true">location_on</span><span class="f0000-alt-harita-kart-il-ic"><span class="f0000-alt-harita-kart-il-etiket">Adres</span><span>İncilipınar Mah. Nokta Sk. No: 5, Şehitkamil, Gaziantep (kurgusal adres)</span></span></li><li class="f0000-alt-harita-kart-il f0000-alt-harita-kart-il--tel"><span class="f0000-alt-harita-kart-il-ikon material-symbols-outlined" aria-hidden="true">call</span><span class="f0000-alt-harita-kart-il-ic"><span class="f0000-alt-harita-kart-il-etiket">Telefon</span><a class="f0000-alt-harita-kart-bag" href="tel:+903420000011"><bdi dir="ltr">+90 342 000 00 11</bdi></a></span></li><li class="f0000-alt-harita-kart-il f0000-alt-harita-kart-il--posta"><span class="f0000-alt-harita-kart-il-ikon material-symbols-outlined" aria-hidden="true">mail</span><span class="f0000-alt-harita-kart-il-ic"><span class="f0000-alt-harita-kart-il-etiket">E-posta</span><a class="f0000-alt-harita-kart-bag" href="mailto:randevu@noktatip.example"><bdi dir="ltr">randevu@noktatip.example</bdi></a></span></li></ul><a class="f0000-alt-harita-kart-yol" href="https://www.google.com/maps/search/?api=1&amp;query=%C4%B0ncilip%C4%B1nar%20Mah.%20Nokta%20Sk.%20No%3A%205%2C%20%C5%9Eehitkamil%2C%20Gaziantep%20(kurgusal%20adres)" target="_blank" rel="noopener noreferrer">Yol tarifi al<span class="material-symbols-outlined mx-flip" aria-hidden="true">arrow_outward</span></a></div><div class="f0000-alt-harita-kart-yan"><div class="f0000-alt-harita-kart-marka"><a class="f0000-alt-harita-kart-logo" href="/tr/" aria-label="Anasayfa - Nokta Tıp"><img src="/img/logo.png" alt="Nokta Tıp" loading="lazy" decoding="async" /></a><p class="f0000-alt-harita-kart-hakkinda">Sekiz branşta randevu esaslı muayene. Kurgusal demo tıp merkezi.</p></div><div class="f0000-alt-harita-kart-sutunlar"><div class="f0000-alt-harita-kart-blok"><h2 class="f0000-alt-harita-kart-bbaslik">Sayfalar</h2><ul class="f0000-alt-harita-kart-sayfalar"><li><a class="f0000-alt-harita-kart-bag" href="/tr/" aria-current="page">Anasayfa</a></li><li><a class="f0000-alt-harita-kart-bag" href="/tr/hekimlerimiz/">Hekimlerimiz</a></li><li><a class="f0000-alt-harita-kart-bag" href="/tr/tedaviler/">Branşlar ve Tedaviler</a></li><li><a class="f0000-alt-harita-kart-bag" href="/tr/randevu/">Randevu</a></li><li><a class="f0000-alt-harita-kart-bag" href="/tr/sss/">Sık Sorulan Sorular</a></li><li><a class="f0000-alt-harita-kart-bag" href="/tr/erisilebilirlik/">Erişilebilirlik</a></li><li><a class="f0000-alt-harita-kart-bag" href="/tr/hasta-haklari/">Hasta Hakları</a></li><li><a class="f0000-alt-harita-kart-bag" href="/tr/iletisim/">İletişim</a></li></ul></div><div class="f0000-alt-harita-kart-blok"><h2 class="f0000-alt-harita-kart-bbaslik">Branşlar</h2><ul class="f0000-alt-harita-kart-baglantilar"><li><a class="f0000-alt-harita-kart-bag" href="/tr/tedaviler/">Dahiliye (İç Hastalıkları)</a></li><li><a class="f0000-alt-harita-kart-bag" href="/tr/tedaviler/">Kardiyoloji</a></li><li><a class="f0000-alt-harita-kart-bag" href="/tr/tedaviler/">Çocuk Sağlığı ve Hastalıkları</a></li><li><a class="f0000-alt-harita-kart-bag" href="/tr/tedaviler/">Kadın Hastalıkları ve Doğum</a></li></ul></div><div class="f0000-alt-harita-kart-blok"><h2 class="f0000-alt-harita-kart-bbaslik">Çalışma Saatleri</h2><dl class="f0000-alt-harita-kart-saatler"><div class="f0000-alt-harita-kart-saat"><dt>Pazartesi – Cuma</dt><dd><bdi dir="ltr">08:00 – 19:00</bdi></dd></div><div class="f0000-alt-harita-kart-saat"><dt>Cumartesi</dt><dd><bdi dir="ltr">09:00 – 13:00</bdi></dd></div><div class="f0000-alt-harita-kart-saat"><dt>Pazar</dt><dd><bdi dir="ltr">Kapalı</bdi></dd></div></dl></div></div></div></div><div class="f0000-alt-harita-kart-alt"><p class="f0000-alt-harita-kart-telif"><span>&copy; 2026 Nokta Tıp</span><span>Tüm hakları saklıdır.</span></p><div class="f0000-alt-harita-kart-dil"><nav class="wm-langbar" aria-label="Dil Seçici"><ul><li class="wm-lang-item wm-lang-active"><a href="/tr/" hreflang="tr" lang="tr" aria-current="true">TR</a></li><li class="wm-lang-item"><a href="/en/" hreflang="en" lang="en">EN</a></li><li class="wm-lang-item"><a href="/ar/" hreflang="ar" lang="ar">AR</a></li></ul></nav></div></div>
   </div>
-  <div class="f0000-f10__bottom">
-    <p class="f0000-f10__rights">&copy; 2026 Nokta Tıp. Tüm hakları saklıdır.</p>
-    <ul class="f0000-f10__legal"><li><a class="f0000-f10__link" href="/tr/hasta-haklari/">Hasta hakları</a></li><li><a class="f0000-f10__link" href="/tr/kisiselveriler/">Kişisel veriler</a></li><li><a class="f0000-f10__link" href="/tr/yasaluyari/">Yasal uyarı</a></li></ul>
-    <div class="f0000-f10__bottomend">
-      <nav class="wm-langbar" aria-label="Dil Seçici"><ul><li class="wm-lang-item wm-lang-active"><a href="/tr/" hreflang="tr" lang="tr" aria-current="true">TR</a></li><li class="wm-lang-item"><a href="/en/" hreflang="en" lang="en">EN</a></li><li class="wm-lang-item"><a href="/ar/" hreflang="ar" lang="ar">AR</a></li></ul></nav>
-      <button type="button" class="f0000-f10__top" aria-label="Yukarı çık" title="Yukarı çık"><span class="material-symbols-outlined" aria-hidden="true">arrow_upward</span></button>
-    </div>
-  </div>
-  <script type="application/json" id="f10-sy5uhs-veri">{"gonderim":"mailto","mailto":"randevu@noktatip.example","subject":"Bülten aboneliği","body":"Merhaba, bültene abone olmak istiyorum.","err":"Geçerli bir e-posta adresi girin.","ok":"E-posta uygulamanız açılıyor; aboneliği oradan onaylayın."}</script>
 </footer>
 
 
-
-<script>
-  (function () {
-    var kok = document.getElementById("f10-sy5uhs");
-    if (!kok || kok.getAttribute("data-f10-hazir") === "1") { return; }
-    kok.setAttribute("data-f10-hazir", "1");
-    var veri = {};
-    try { veri = JSON.parse(document.getElementById("f10-sy5uhs-veri").textContent); } catch (e) { veri = {}; }
-
-    
-    var ust = kok.querySelector(".f0000-f10__top");
-    if (ust) {
-      ust.addEventListener("click", function () {
-        var yumusak = !window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-        try { window.scrollTo({ top: 0, behavior: yumusak ? "smooth" : "auto" }); } catch (e) { window.scrollTo(0, 0); }
-        var hedef = document.querySelector("#header, header, main, body");
-        if (hedef && hedef.focus) { hedef.setAttribute("tabindex", "-1"); hedef.focus({ preventScroll: true }); }
-      });
-    }
-
-    
-    var form = kok.querySelector(".f0000-f10__nlform");
-    if (!form) { return; }
-    var girdi = form.querySelector("input[type=email]");
-    var durum = form.querySelector(".f0000-f10__nlerr");
-    function yaz(metin, hata) {
-      if (!durum) { return; }
-      durum.textContent = metin || "";
-      durum.className = "f0000-f10__nlerr" + (metin ? " is-on" : "") + (hata ? " is-err" : " is-ok");
-      if (girdi) { if (hata) { girdi.setAttribute("aria-invalid", "true"); } else { girdi.removeAttribute("aria-invalid"); } }
-    }
-    if (girdi) { girdi.addEventListener("input", function () { yaz("", false); }); }
-    form.addEventListener("submit", function (ev) {
-      ev.preventDefault();
-      var v = girdi ? String(girdi.value || "").trim() : "";
-      if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(v)) { yaz(veri.err || "", true); if (girdi) { girdi.focus(); } return; }
-      if (veri.gonderim !== "mailto" || !veri.mailto) { return; }
-      yaz(veri.ok || "", false);
-      window.location.href = "mailto:" + veri.mailto + "?subject=" + encodeURIComponent(veri.subject || "") + "&body=" + encodeURIComponent((veri.body || "") + "\r\n" + v);
-    });
-  })();
-</script>
 <div class="f0001-dk" role="contentinfo" aria-label="Demo bilgisi">
   <p class="f0001-dk-text">Bu demo <bdi class="f0001-dk-brand" dir="ltr">Webyapar</bdi> tarafından hazırlanmıştır — <a class="f0001-dk-cta" href="https://webyapar.com/temalar#klinik-2" target="_blank" rel="noopener noreferrer"><span>Bu temayı iste</span><span class="mx-visually-hidden"> (yeni sekmede açılır)</span><span class="material-symbols-outlined mx-flip f0001-dk-arrow" aria-hidden="true">arrow_forward</span></a></p>
 </div>
 
-<nav class="wm-yasal" aria-label="Kurumsal ve Yasal" style="box-sizing:border-box;width:100%;max-width:100%;padding:12px 16px;background:var(--mx-site-bg, #FBFBFA);color:var(--mx-site-text, #111111);display:flex;flex-wrap:wrap;gap:4px 16px;align-items:center;justify-content:center;text-align:center;overflow-wrap:anywhere"><strong style="color:var(--mx-site-text, #111111)">Kurumsal ve Yasal</strong><a href="/tr/hakkimizda/" style="color:var(--mx-site-text, #111111);padding:6px 0;text-decoration:underline;min-width:0">Hakkımızda</a><a href="/tr/misyon/" style="color:var(--mx-site-text, #111111);padding:6px 0;text-decoration:underline;min-width:0">Misyon</a><a href="/tr/vizyon/" style="color:var(--mx-site-text, #111111);padding:6px 0;text-decoration:underline;min-width:0">Vizyon</a><a href="/tr/kalitepolitikamiz/" style="color:var(--mx-site-text, #111111);padding:6px 0;text-decoration:underline;min-width:0">Kalite Politikamız</a><a href="/tr/gizlilikpolitikasi/" style="color:var(--mx-site-text, #111111);padding:6px 0;text-decoration:underline;min-width:0">Gizlilik Politikası</a><a href="/tr/kullanicahaklari/" style="color:var(--mx-site-text, #111111);padding:6px 0;text-decoration:underline;min-width:0">Kullanıcı Hakları</a></nav></div>
+<nav class="wm-yasal" aria-label="Kurumsal ve Yasal" style="box-sizing:border-box;width:100%;max-width:100%;padding:12px 16px;background:var(--mx-site-bg, #FBFBFA);color:var(--mx-site-text, #111111);display:flex;flex-wrap:wrap;gap:4px 16px;align-items:center;justify-content:center;text-align:center;overflow-wrap:anywhere"><strong style="color:var(--mx-site-text, #111111)">Kurumsal ve Yasal</strong><a href="/tr/hakkimizda/" style="color:var(--mx-site-text, #111111);padding:6px 0;text-decoration:underline;min-width:0">Hakkımızda</a><a href="/tr/misyon/" style="color:var(--mx-site-text, #111111);padding:6px 0;text-decoration:underline;min-width:0">Misyon</a><a href="/tr/vizyon/" style="color:var(--mx-site-text, #111111);padding:6px 0;text-decoration:underline;min-width:0">Vizyon</a><a href="/tr/kalitepolitikamiz/" style="color:var(--mx-site-text, #111111);padding:6px 0;text-decoration:underline;min-width:0">Kalite Politikamız</a><a href="/tr/gizlilikpolitikasi/" style="color:var(--mx-site-text, #111111);padding:6px 0;text-decoration:underline;min-width:0">Gizlilik Politikası</a><a href="/tr/kisiselveriler/" style="color:var(--mx-site-text, #111111);padding:6px 0;text-decoration:underline;min-width:0">Kişisel Veriler</a><a href="/tr/kullanicahaklari/" style="color:var(--mx-site-text, #111111);padding:6px 0;text-decoration:underline;min-width:0">Kullanıcı Hakları</a><a href="/tr/yasaluyari/" style="color:var(--mx-site-text, #111111);padding:6px 0;text-decoration:underline;min-width:0">Yasal Uyarı</a></nav></div>
 
   
 
   <script defer src="/src/swiper-bundle.min.js"></script>
-  <script defer src="/src/mx-ui.js?v=ucace"></script>
-  <script defer src="/src/mx-store.js?v=ucace"></script>
-  <script defer type="text/javascript" src="/src/js.js?v=ucace"></script>
-  <script defer src="/src/cookie.js?v=ucace"></script>
+  <script defer src="/src/mx-ui.js?v=g7716"></script>
+  <script defer src="/src/mx-store.js?v=g7716"></script>
+  <script defer type="text/javascript" src="/src/js.js?v=g7716"></script>
+  <script defer src="/src/cookie.js?v=g7716"></script>
 
 </body>
 
